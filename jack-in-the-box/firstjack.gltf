@@ -1,0 +1,647 @@
+{
+    "accessors": {
+        "accessor_100": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 3888,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1152,
+            "type": "SCALAR"
+        },
+        "accessor_103": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 6192,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 19512,
+            "type": "SCALAR"
+        },
+        "accessor_106": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 45216,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1152,
+            "type": "SCALAR"
+        },
+        "accessor_108": {
+            "bufferView": "bufferView_113",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                1.36206,
+                3.02727,
+                2.1417
+            ],
+            "min": [
+                -1.3428,
+                -2.16746,
+                -2.61536
+            ],
+            "type": "VEC3"
+        },
+        "accessor_110": {
+            "bufferView": "bufferView_113",
+            "byteOffset": 81576,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.999333,
+                0.999122,
+                0.999681
+            ],
+            "min": [
+                -0.999704,
+                -0.999843,
+                -0.999604
+            ],
+            "type": "VEC3"
+        },
+        "accessor_88": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 72,
+            "type": "SCALAR"
+        },
+        "accessor_91": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 144,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 1080,
+            "type": "SCALAR"
+        },
+        "accessor_94": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 2304,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 216,
+            "type": "SCALAR"
+        },
+        "accessor_97": {
+            "bufferView": "bufferView_112",
+            "byteOffset": 2736,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 576,
+            "type": "SCALAR"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@11bf28f97f1b5380fbefacf862ce7c597873d368",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_112": {
+            "buffer": "firstjack",
+            "byteLength": 47520,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_113": {
+            "buffer": "firstjack",
+            "byteLength": 163152,
+            "byteOffset": 47520,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "firstjack": {
+            "byteLength": 210672,
+            "type": "arraybuffer",
+            "uri": "firstjack.bin"
+        }
+    },
+    "cameras": {
+        "Camera-camera": {
+            "name": "Camera",
+            "perspective": {
+                "aspect_ratio": 1.77778,
+                "yfov": 0.482375,
+                "zfar": 100,
+                "znear": 0.1
+            },
+            "type": "perspective"
+        }
+    },
+    "materials": {
+        "mat11-effect": {
+            "name": "mat11",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    0,
+                    0.59,
+                    0.53,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat12-effect": {
+            "name": "mat12",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    1,
+                    0.92,
+                    0.23,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat16-effect": {
+            "name": "mat16",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    0.47,
+                    0.56,
+                    0.61,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat18-effect": {
+            "name": "mat18",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    1,
+                    0.8,
+                    0.53,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat20-effect": {
+            "name": "mat20",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    0.47,
+                    0.33,
+                    0.28,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat21-effect": {
+            "name": "mat21",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        },
+        "mat23-effect": {
+            "name": "mat23",
+            "technique": "technique1",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "model-mesh": {
+            "name": "model",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_88",
+                    "material": "mat23-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_91",
+                    "material": "mat21-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_94",
+                    "material": "mat20-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_97",
+                    "material": "mat11-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_100",
+                    "material": "mat12-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_103",
+                    "material": "mat16-effect",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_110",
+                        "POSITION": "accessor_108"
+                    },
+                    "indices": "accessor_106",
+                    "material": "mat18-effect",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Camera": {
+            "camera": "Camera-camera",
+            "children": [],
+            "matrix": [
+                0.685921,
+                0.727676,
+                0,
+                0,
+                -0.324014,
+                0.305421,
+                0.895396,
+                0,
+                0.651558,
+                -0.61417,
+                0.445271,
+                0,
+                7.48113,
+                -6.50764,
+                5.34367,
+                1
+            ],
+            "name": "Camera"
+        },
+        "Lamp": {
+            "children": [],
+            "matrix": [
+                -0.290865,
+                0.955171,
+                -0.0551891,
+                0,
+                -0.771101,
+                -0.199883,
+                0.604525,
+                0,
+                0.566393,
+                0.218391,
+                0.794672,
+                0,
+                4.07624,
+                1.00545,
+                5.90386,
+                1
+            ],
+            "name": "Lamp"
+        },
+        "model": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                -1.62921e-07,
+                1,
+                0,
+                0,
+                -1,
+                -1.62921e-07,
+                0,
+                0.0297439,
+                0.853212,
+                0.63758,
+                1
+            ],
+            "meshes": [
+                "model-mesh"
+            ],
+            "name": "model"
+        },
+        "node_3": {
+            "children": [
+                "Camera",
+                "Lamp",
+                "model"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "firstjack0FS",
+            "vertexShader": "firstjack0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_3"
+            ]
+        }
+    },
+    "shaders": {
+        "firstjack0FS": {
+            "type": 35632,
+            "uri": "firstjack0FS.glsl"
+        },
+        "firstjack0VS": {
+            "type": 35633,
+            "uri": "firstjack0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique1": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "light0Color": {
+                    "type": 35665,
+                    "value": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "light0ConstantAttenuation": {
+                    "type": 5126,
+                    "value": 1
+                },
+                "light0LinearAttenuation": {
+                    "type": 5126,
+                    "value": 0
+                },
+                "light0QuadraticAttenuation": {
+                    "type": 5126,
+                    "value": 0.00111109
+                },
+                "light0Transform": {
+                    "node": "Lamp",
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_light0Color": "light0Color",
+                "u_light0ConstantAttenuation": "light0ConstantAttenuation",
+                "u_light0LinearAttenuation": "light0LinearAttenuation",
+                "u_light0QuadraticAttenuation": "light0QuadraticAttenuation",
+                "u_light0Transform": "light0Transform",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    }
+}
