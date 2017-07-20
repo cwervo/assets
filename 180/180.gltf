@@ -1,0 +1,66 @@
+{
+    "accessors": {},
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@11bf28f97f1b5380fbefacf862ce7c597873d368",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_3": {
+            "buffer": "180",
+            "byteLength": 0,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_4": {
+            "buffer": "180",
+            "byteLength": 0,
+            "byteOffset": 0,
+            "target": 34962
+        }
+    },
+    "buffers": {},
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "materials": {},
+    "meshes": {},
+    "nodes": {
+        "node": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "node"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node"
+            ]
+        }
+    },
+    "skins": {}
+}
