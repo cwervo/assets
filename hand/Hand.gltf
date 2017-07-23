@@ -1,0 +1,338 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 6600,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 6600,
+            "max": [
+                9.33403,
+                10.9946,
+                6.13726
+            ],
+            "min": [
+                -4.80666,
+                -4.56073,
+                -5.76727
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 79200,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 6600,
+            "max": [
+                0.998393,
+                0.998593,
+                0.998957
+            ],
+            "min": [
+                -0.999545,
+                -0.99725,
+                -0.999548
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 158400,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 6600,
+            "max": [
+                0.994722,
+                0.994381
+            ],
+            "min": [
+                0.000581324,
+                0.000239491
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@11bf28f97f1b5380fbefacf862ce7c597873d368",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_29": {
+            "buffer": "Hand",
+            "byteLength": 13200,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_30": {
+            "buffer": "Hand",
+            "byteLength": 211200,
+            "byteOffset": 13200,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "Hand": {
+            "byteLength": 224400,
+            "type": "arraybuffer",
+            "uri": "Hand.bin"
+        }
+    },
+    "cameras": {
+        "Camera-camera": {
+            "name": "Camera",
+            "perspective": {
+                "aspect_ratio": 1.77778,
+                "yfov": 0.482375,
+                "zfar": 100,
+                "znear": 0.1
+            },
+            "type": "perspective"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {
+                "Point-light": {
+                    "name": "Point",
+                    "point": {
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "constantAttenuation": 1,
+                        "linearAttenuation": 0,
+                        "quadraticAttenuation": 0.00159997
+                    },
+                    "type": "point"
+                },
+                "Point_001-light": {
+                    "name": "Point.001",
+                    "point": {
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "constantAttenuation": 1,
+                        "linearAttenuation": 0,
+                        "quadraticAttenuation": 0.00159997
+                    },
+                    "type": "point"
+                }
+            }
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "materials": {
+        "defaultMat-effect": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.64,
+                            0.64,
+                            0.64,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "defaultMat"
+        }
+    },
+    "meshes": {
+        "ZBrushPolyMesh3D-mesh": {
+            "name": "ZBrushPolyMesh3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "defaultMat-effect",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Camera": {
+            "camera": "Camera-camera",
+            "children": [],
+            "matrix": [
+                0.446347,
+                -0.894853,
+                -0.00362123,
+                0,
+                0.00412588,
+                -0.00198873,
+                0.99999,
+                0,
+                -0.894851,
+                -0.446357,
+                0.0028044,
+                0,
+                -7.54787,
+                -3.94349,
+                0.477141,
+                1
+            ],
+            "name": "Camera"
+        },
+        "Point": {
+            "children": [],
+            "extensions": {
+                "KHR_materials_common": {
+                    "light": "Point-light"
+                }
+            },
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.0154948,
+                1.13278,
+                1.19472,
+                1
+            ],
+            "name": "Point"
+        },
+        "Point_001": {
+            "children": [],
+            "extensions": {
+                "KHR_materials_common": {
+                    "light": "Point_001-light"
+                }
+            },
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.944091,
+                0,
+                -1.71128,
+                1
+            ],
+            "name": "Point_001"
+        },
+        "ZBrushPolyMesh3D": {
+            "children": [],
+            "matrix": [
+                0.285625,
+                0,
+                0,
+                0,
+                0,
+                -4.65343e-08,
+                0.285625,
+                0,
+                0,
+                -0.285625,
+                -4.65343e-08,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "ZBrushPolyMesh3D-mesh"
+            ],
+            "name": "ZBrushPolyMesh3D"
+        },
+        "node_4": {
+            "children": [
+                "ZBrushPolyMesh3D",
+                "Point",
+                "Camera",
+                "Point_001"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_4"
+            ]
+        }
+    },
+    "skins": {}
+}
