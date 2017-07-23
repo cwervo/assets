@@ -182,60 +182,6 @@
             ],
             "name": "Camera"
         },
-        "Point": {
-            "children": [],
-            "extensions": {
-                "KHR_materials_common": {
-                    "light": "Point-light"
-                }
-            },
-            "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.0154948,
-                1.13278,
-                1.19472,
-                1
-            ],
-            "name": "Point"
-        },
-        "Point_001": {
-            "children": [],
-            "extensions": {
-                "KHR_materials_common": {
-                    "light": "Point_001-light"
-                }
-            },
-            "matrix": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0,
-                0,
-                0,
-                1,
-                0,
-                0.944091,
-                0,
-                -1.71128,
-                1
-            ],
-            "name": "Point_001"
-        },
         "ZBrushPolyMesh3D": {
             "children": [],
             "matrix": [
