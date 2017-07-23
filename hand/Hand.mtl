@@ -1,6 +1,7 @@
 # Blender v2.74 (sub 0) OBJ File: 'Hand.blend'
 # www.blender.org
 mtllib Hand.mtl
+map_Ka hand_mapNew.jpg
 o ZBrushPolyMesh3D
 v 0.614360 0.281365 -0.675872
 v 0.684894 0.445729 -0.634615
