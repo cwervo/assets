@@ -104,43 +104,6 @@
             "type": "perspective"
         }
     },
-    "extensions": {
-        "KHR_materials_common": {
-            "lights": {
-                "Point-light": {
-                    "name": "Point",
-                    "point": {
-                        "color": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "constantAttenuation": 1,
-                        "linearAttenuation": 0,
-                        "quadraticAttenuation": 0.00159997
-                    },
-                    "type": "point"
-                },
-                "Point_001-light": {
-                    "name": "Point.001",
-                    "point": {
-                        "color": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "constantAttenuation": 1,
-                        "linearAttenuation": 0,
-                        "quadraticAttenuation": 0.00159997
-                    },
-                    "type": "point"
-                }
-            }
-        }
-    },
-    "extensionsUsed": [
-        "KHR_materials_common"
-    ],
     "materials": {
         "defaultMat-effect": {
             "extensions": {
