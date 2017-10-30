@@ -1,0 +1,287 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20436,
+      "max": [
+        3.8080499172210693,
+        3.8053700923919678,
+        6.055150032043457
+      ],
+      "min": [
+        -3.8067901134490967,
+        -3.8837199211120605,
+        -0.17971000075340271
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 245232,
+      "componentType": 5126,
+      "count": 20436,
+      "max": [
+        0.99997073411941528,
+        0.99998217821121216,
+        0.99999994039535522
+      ],
+      "min": [
+        -0.99954724311828613,
+        -0.99997323751449585,
+        -0.99999994039535522
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20436,
+      "max": [
+        0.99998050928115845,
+        0.99947226047515869,
+        0.99838387966156006,
+        1
+      ],
+      "min": [
+        -0.99999982118606567,
+        -0.99999958276748657,
+        -0.99291843175888062,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20436,
+      "max": [
+        0.99651998281478882,
+        0.76023000478744507
+      ],
+      "min": [
+        0.00072000001091510057,
+        0.0014700000174343586
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 119040,
+      "max": [
+        20435
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "Sketchfab (OSG glTF plugin)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 476160,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163488,
+      "byteOffset": 476160,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 490464,
+      "byteOffset": 639648,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 326976,
+      "byteOffset": 1130112,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1457088,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Pumpkin%20Skin_diffuse.png"
+    },
+    {
+      "uri": "textures/Pumpkin%20Skin_normal.png"
+    },
+    {
+      "uri": "textures/Pumpkin%20Skin_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.70999999999999996,
+          "specularFactor": [
+            0.021439371108,
+            0.021439371108,
+            0.021439371108
+          ]
+        }
+      },
+      "name": "Pumpkin Skin",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Jack_Olantern",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.94008000000000003,
+        -0.34095000000000009,
+        0,
+        0,
+        0.34095000000000009,
+        0.94008000000000003,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.046120000000000015,
+        0,
+        1
+      ],
+      "name": "Jack_Olantern"
+    },
+    {
+      "mesh": 0,
+      "name": "Jack_Olantern"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Geode"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
